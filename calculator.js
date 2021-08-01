@@ -38,8 +38,6 @@ window.addEventListener('DOMContentLoaded', function() {
   // Get the current values from the UI
   // Update the monthly payment
   function update() {
-    jasmine.createSpy();
-    myAlert = spyOn(window, 'alert');
     let numericMsg = "All values should be numeric."
     let zeroMsg = ("Values should be greater than zero.")
     let data = getCurrentUIValues();
